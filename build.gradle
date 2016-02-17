@@ -4,7 +4,7 @@ apply plugin: 'application'
 
 sourceCompatibility = 1.5
 version = '1.0'
-mainClassName = 'src.test.java.org.gradle.ModelTest'
+mainClassName = 'org.gradle.model.Model'
 jar {
     manifest {
         attributes 'Implementation-Title': 'Gradle Quickstart',
